@@ -57,3 +57,34 @@ body {
 .Hero p {
     font-weight: bold;
 }
+
+.Features {
+    padding: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    width: 250px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 2px 5px 10px #a9cac9;
+    border-radius: 5px;
+}
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#card-col2 {
+    margin-top: 20px;
+}
