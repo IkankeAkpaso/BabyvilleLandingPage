@@ -62,10 +62,28 @@ body {
     padding: 30px;
 }
 
+.Features h3 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.Features h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.Features h3, .Features h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .card {
@@ -81,7 +99,7 @@ body {
 }
 
 .card-content {
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-align: center;
 }
 
