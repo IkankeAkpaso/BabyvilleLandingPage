@@ -6,7 +6,6 @@
 
 body {
     font-family: sans-serif;
-    /* background-color: #aed3d1; */
 }
 
 .navbar {
@@ -30,7 +29,11 @@ body {
     color: black;
 }
 
-.Hero {
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
     margin: 0;
     padding: 100px 100px;
     background-color: #aed3d1;
@@ -40,42 +43,42 @@ body {
     
 }
 
-.img {
+.hero .img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 3px solid white;
 }
 
-.Hero h1 {
+.hero h1 {
     font-size: 70px;
     font-weight: bold;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.Hero p {
+.hero p {
     font-weight: bold;
 }
 
-.Features {
+.corners {
     padding: 30px;
 }
 
-.Features h3 {
+.corners h2 {
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
-.Features h2 {
+.corners h3 {
     font-size: 30px;
     margin-bottom: 30px;
 
 }
 
-.Features h3, .Features h2 {
+.corners h3, .corners h2 {
     text-align: center;
     font-weight: bold;
 }
